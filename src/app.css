@@ -1,0 +1,96 @@
+/*home*/
+
+body{
+  background-color: rgb(57,62,65);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /*overflow: hidden;*/
+}
+
+.login-container{
+  margin-top: 15%;
+  text-align: center;
+  background-color: #fff;
+  height: 25%;
+  border-radius: 10px;
+}
+
+.login-container form{
+  padding-top: 5%;
+}
+
+.loginText{
+  color:  rgb(0,48,64);
+  font-size: 24px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.primaryButton{
+  background-color: rgb(151,151,151);
+  font-size: 24px;
+  padding: 2%;
+  margin: 0% 2% 5% 2%;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.primaryButtonText{
+  background: rgb(63,136,197); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(63,136,197), rgb(61,111,152)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(63,136,197), rgb(61,111,152)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(63,136,197), rgb(61,111,152)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(63,136,197), rgb(61,111,152)); /* Standard syntax */
+  font-size: 24px;
+  padding: 2%;
+  margin: 4% 2% 7% 2%;
+  width: 30%;
+  border: 1px solid;
+  border-radius: 5px;  
+}
+
+/*app*/
+
+.sideNav{
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  z-index: 2;
+  position: fixed;
+  padding-right: 0px;
+}
+
+.main{
+  display: flex;
+  height:100%;
+  width:100%;
+}
+
+.googleMaps{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.logout {
+  border: 0;
+  border-radius: 5px;
+  text-align: right;
+  background-color: rgb(92,156,244);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.logoutButton{
+  margin-top: 2%;
+  z-index: 2;
+}

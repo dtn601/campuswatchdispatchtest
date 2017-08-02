@@ -1,0 +1,57 @@
+{
+  "rules": {
+  	"auth_dispatch": {
+        ".read": true,
+        ".write": true,
+    },
+    "auth_users": {
+      "$token": {
+        ".read": true,
+        ".write": true,
+      },
+    },
+    "users": {
+        ".write":true,
+      ".read" : true, 
+    },
+      "users-test": {
+      "$uid": {
+        ".write":true,
+      ".read" : true,
+      },
+    },
+    "alerts": {
+      ".write": true,
+      ".read": true,
+    },
+      "-01-alerts": {
+      ".write": true,
+      ".read": true,
+    },
+    "chats": {
+      ".write": true,
+      ".read": true,
+    },
+      "-01-chats": {
+      ".write": true,
+      ".read": true,
+      },
+      "-01-complete":{
+        ".write":true,
+        ".read": true,
+      },
+      "reports": {
+      ".write":true,
+      ".read" : true,
+      },
+        "providers": {
+      ".write":true,
+      ".read" : true,
+      },
+    "reports-test": {
+      ".write":true,
+      ".read":true,
+      }
+    }
+      }
+        
